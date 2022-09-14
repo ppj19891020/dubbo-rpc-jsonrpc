@@ -1,4 +1,4 @@
-package com.qianmi.dubbo.rpc.protocol.jsonrpc;
+package com.ppj.dubbo.rpc.protocol.jsonrpc;
 
 import java.io.IOException;
 import java.net.SocketTimeoutException;
@@ -12,13 +12,13 @@ import javax.servlet.http.HttpServletResponse;
 
 import org.springframework.remoting.RemoteAccessException;
 
-import com.alibaba.dubbo.common.URL;
-import com.alibaba.dubbo.remoting.http.HttpBinder;
-import com.alibaba.dubbo.remoting.http.HttpHandler;
-import com.alibaba.dubbo.remoting.http.HttpServer;
-import com.alibaba.dubbo.rpc.RpcContext;
-import com.alibaba.dubbo.rpc.RpcException;
-import com.alibaba.dubbo.rpc.protocol.AbstractProxyProtocol;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.remoting.http.HttpBinder;
+import org.apache.dubbo.remoting.http.HttpHandler;
+import org.apache.dubbo.remoting.http.HttpServer;
+import org.apache.dubbo.rpc.RpcContext;
+import org.apache.dubbo.rpc.RpcException;
+import org.apache.dubbo.rpc.protocol.AbstractProxyProtocol;
 import com.googlecode.jsonrpc4j.HttpException;
 import com.googlecode.jsonrpc4j.JsonRpcClientException;
 import com.googlecode.jsonrpc4j.JsonRpcServer;

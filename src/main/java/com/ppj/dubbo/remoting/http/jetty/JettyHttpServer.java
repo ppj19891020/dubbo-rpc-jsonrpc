@@ -1,19 +1,19 @@
-package com.doctor.dubbo.remoting.http.jetty;
+package com.ppj.dubbo.remoting.http.jetty;
 
+import org.apache.dubbo.remoting.http.support.AbstractHttpServer;
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.server.ServerConnector;
 import org.eclipse.jetty.servlet.ServletHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 import org.eclipse.jetty.util.thread.QueuedThreadPool;
 
-import com.alibaba.dubbo.common.Constants;
-import com.alibaba.dubbo.common.URL;
-import com.alibaba.dubbo.common.logger.Logger;
-import com.alibaba.dubbo.common.logger.LoggerFactory;
-import com.alibaba.dubbo.common.utils.NetUtils;
-import com.alibaba.dubbo.remoting.http.HttpHandler;
-import com.alibaba.dubbo.remoting.http.servlet.DispatcherServlet;
-import com.alibaba.dubbo.remoting.http.support.AbstractHttpServer;
+import org.apache.dubbo.common.Constants;
+import org.apache.dubbo.common.URL;
+import org.apache.dubbo.common.logger.Logger;
+import org.apache.dubbo.common.logger.LoggerFactory;
+import org.apache.dubbo.common.utils.NetUtils;
+import org.apache.dubbo.remoting.http.HttpHandler;
+import org.apache.dubbo.remoting.http.servlet.DispatcherServlet;
 
 /**
  * @author sdcuike
